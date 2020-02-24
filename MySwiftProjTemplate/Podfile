@@ -1,0 +1,177 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+# 解除所有三方库警告
+inhibit_all_warnings!
+
+target 'MySwiftTemplate' do
+  use_frameworks!
+  
+  # 网络库
+  pod 'Alamofire', '~> 5.0.0-rc.3'
+  # Alamofire的一层上层封装
+  #pod 'Moya'
+  # 网络图片库
+  pod 'Kingfisher'
+  # json解析库
+  #pod 'SwiftyJSON'
+  # 一个设计师导出json文件即可使用的动画框架
+  #pod 'lottie-ios'
+  # Loading
+  pod 'NVActivityIndicatorView'
+  # 图表
+  #pod 'Charts'
+  
+  # 转场动画
+  #pod 'Hero'
+  
+  # 响应式编程 另一个框架 RxCocoa
+  #pod 'RxSwift'
+  
+  # 约束框架 Masonry
+  #pod 'SnapKit'
+  
+  # realm数据库
+  #pod 'RealmSwift'
+  
+  # 动画库 为swift4.2的,有点过时了
+  #pod 'Spring'
+  
+  # 颜色库 这里的语法也有些过时
+  #pod 'ChameleonFramework/Swift'
+  
+  # 异步处理库
+  #pod "PromiseKit"
+  
+  # swift扩展库
+  pod 'SwifterSwift'
+  
+  # View占位
+  #pod "SkeletonView"
+  
+  # 数字解析验证等
+  #pod 'PhoneNumberKit'
+  
+  # 一个PageTab,和OC中的WMPageController差不多
+  #pod 'XLPagerTabStrip'
+  
+  # 一个类似Form的构建
+  #pod 'Eureka'
+  
+  # 强制Swift Style写法
+  #pod 'SwiftLint'
+  
+  # 一个检测app版本号并提醒用户
+  #pod 'Siren'
+  
+  # Swift加密库
+  #pod 'CryptoSwift'
+  
+  # 数据流 从Redux启发
+  #pod 'ReSwift'
+  
+  # swift版的keychain
+  #pod 'KeychainAccess'
+  
+  # 日历控件
+  #pod 'JTAppleCalendar'
+  
+  # 元编程
+  
+  #pod 'Sourcery'
+  # 矢量图 支持SVG
+  #pod "Macaw"
+  
+  # animated tab bar
+  #pod 'RAMAnimatedTabBarController'
+  # 可折叠的cell
+  #pod 'FoldingCell'
+  
+  # 通过IBInspectable和IBDesignable来定义可以在storyboard中使用的属性设置
+  #pod 'IBAnimatable'
+  
+  # 一个Websocket客户端
+  #pod 'Starscream'
+  # log,官方版还有一个SwiftLog
+  #pod 'SwiftyBeaver'
+  
+  # json 和model 相互转化
+  #pod 'ObjectMapper'
+  
+  # 面向切面编程
+  #pod "Aspects"
+  
+  # 可变形的label
+  #pod 'LTMorphingLabel'
+  
+  # 强类型的资源管理框架
+  #pod 'R.swift'
+  
+  # SQlite数据库
+  #pod 'SQLite.swift'
+  
+  # 侧边菜单
+  #pod 'SideMenu'
+  # 方便操作日期的库
+  #pod 'SwiftDate'
+  
+  # TableviewCell或UICollectionViewCell侧滑手势
+  #pod 'SwipeCellKit'
+  
+  # Swift版的一个视频播放框架
+  #pod 'MobilePlayer'
+  
+  # Swift版UserDefault
+  #pod 'SwiftyUserDefaults'
+  
+  # 测试框架
+  #pod 'Quick'
+  # 服务器端框架 Vapor Perfect Kitura
+  
+  
+  # GPUImage 一个高性能的gpu处理框架
+  # oc的js交互bridge
+  #pod 'WebViewJavascriptBridge
+  
+  # 一个toast的框架 和 MBProgressHUD 同样知名
+  #pod 'SVProgressHUD'
+  
+  # oc日志框架
+  #pod 'CocoaLumberjack'
+  
+  # 3D视图
+  #pod 'iCarousel'
+  
+  # oc的一个socket框架
+  #pod 'CocoaAsyncSocket'
+  
+  # 一个权限申请的弹框view
+  #pod 'SPPermissions'
+  
+  # 对ApplePay的一个封装框架
+  #pod 'SwiftyStoreKit'
+  
+  # 一个消息框架
+  # Swift版的 JSQMessagesViewController
+  #pod 'SwiftMessages'
+  
+  # 一个present view弹框，可以做toast
+  #pod 'SwiftEntryKit'
+  
+  # 一个调试和查看的框架
+  #pod 'FLEX', :configurations => ['Debug']
+  
+  # swift 版本的一个类似iCarousel的框架
+  #pod 'FSPagerView'
+  
+  # 一个类似JDStatusBarNotification的东东
+  #pod 'NotificationBannerSwift'
+  
+  # 一个路由跳转
+  # pod 'JLRoutes'
+  
+  # 一个可以左右滚动的label
+  #pod 'MarqueeLabel'
+end
