@@ -1,16 +1,20 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '10.0'
+# 使用动态库
 use_frameworks!
 
 # 解除所有三方库警告
 inhibit_all_warnings!
 
 target 'MySwiftTemplate' do
+   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
+  # Pods for mt_swiftdmeo
+  
   # 网络库
-  pod 'Alamofire', '~> 5.0.0-rc.3'
+  pod 'Alamofire'
   # Alamofire的一层上层封装
   #pod 'Moya'
   # 网络图片库
@@ -174,4 +178,10 @@ target 'MySwiftTemplate' do
   
   # 一个可以左右滚动的label
   #pod 'MarqueeLabel'
+  
+  # Swift语言写的，设计模式23则
+  # https://github.com/ochococo/Design-Patterns-In-Swift.git
+  
+  # Swift语言实现的算法
+  # https://github.com/raywenderlich/swift-algorithm-club.git
 end

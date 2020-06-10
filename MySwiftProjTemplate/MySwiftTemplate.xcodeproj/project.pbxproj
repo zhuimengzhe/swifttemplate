@@ -524,7 +524,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MySwiftTemplate/Pods-MySwiftTemplate-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftTemplate/Pods-MySwiftTemplate-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
@@ -539,7 +539,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySwiftTemplate/Pods-MySwiftTemplate-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftTemplate/Pods-MySwiftTemplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7D437373AF806AD7D276450F /* [CP] Check Pods Manifest.lock */ = {
